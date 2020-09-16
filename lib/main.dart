@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
             previousProducts == null ? [] : previousProducts.items,
           ),
         ),
+        
         ChangeNotifierProvider.value(
           value: Cart(),
         ),
